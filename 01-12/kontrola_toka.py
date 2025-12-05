@@ -104,8 +104,15 @@ if trenutna_tema_na_racunaru == "light":
     odabrana_tema_u_app = "light"
 else:
     odabrana_tema_u_app = "dark"
-# druga mogucnost
+# druga mogucnost-ternarni operator
 odabrana_tema_u_app = "light" if trenutna_tema_na_racunaru == "light" else "dark"
+
+unjeti_broj =  int(input("unesite broj: "))
+
+if unjeti_broj % 2 == 0:
+    print("broj je paran")
+else:
+    print("broj je neparan")
 
 
 
