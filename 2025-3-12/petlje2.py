@@ -17,7 +17,7 @@ while broj_pokusaja > 0:
          broj_pokusaja -= 1
 
 #stampati samo parne brojeve - simulacija continue
-for broj in range(10):
+for broj in range(1,10):
     if broj % 2 != 0:
         continue
 
